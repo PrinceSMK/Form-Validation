@@ -1,0 +1,75 @@
+body{
+    background-image: url("OIP.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    
+};
+
+form{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+}
+#uname{
+    padding: 5px 0px 5px 8px;
+    background-color: cornsilk;
+    font-size: 18px;
+    text-align: start;
+    line-height: 10px;
+    margin-top: 20px;
+    margin-left: 170px;
+}
+
+#nameerr{
+    margin-left: 195px;
+    margin-top: 8px;
+    font-size: 17px;
+
+}
+#numerr{
+    margin-left: 195px;
+    margin-top: 8px;
+    font-size: 17px;
+}
+#umail{
+    padding: 5px 0px 5px 8px;
+    background-color: cornsilk;
+    font-size: 18px;
+    margin-left: 512px;
+    text-align: start;
+    line-height: 10px;
+    margin-top: -54px;
+    display: flex;
+}
+
+#unumber{
+    padding: 5px 0px 5px 8px;
+    background-color: cornsilk;
+    font-size: 18px;
+    margin-top: 45px;
+    margin-left: 169px
+}
+
+#upass{
+    padding: 5px 0px 5px 8px;
+    background-color: cornsilk;
+    font-size: 18px;
+    line-height: 10px;
+    display: flex;
+    margin-left: 515px;
+    margin-top: -53px;
+}
+#errorp{
+    margin-left: 550px;
+}
+
+#submit{
+    padding: 10px 122px 10px 102px;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 26%;
+    background-color: steelblue;
+    margin-top: 4%;
+    color: aliceblue;
+}

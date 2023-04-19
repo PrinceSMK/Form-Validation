@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+<div id="formcol" >
+    <form action="a.php" onsubmit="return validate()" >
+        <input type="text" id="uname" placeholder="Enter Your Name"><br>
+        <span id="nameerr" style="color: red;"></span><br>
+
+        <input type="email" id="umail" placeholder="Enter Your E-Mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"><br>
+        <span id="errorm"></span>
+
+        <input type="text" id="unumber" placeholder="Enter Your Number"><br>
+        <span id="numerr" style="color:red ;"></span><br>
+
+        <input type="password" name="" id="upass" placeholder="Enter Your Password"><br>
+        <span id="errorp" style="color: red;"></span><br> 
+
+        
+
+        <input type="submit" name="" id="submit"><br>
+    </form></div>
+ 
+ <script src="form.js"></script>
+</body>
+</html>
